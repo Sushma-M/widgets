@@ -1,0 +1,45 @@
+{
+	"goToPage-Main": {
+		"category": "wm.NavigationVariable",
+		"operation": "gotoPage",
+		"pageName": "Main",
+		"_id": "wm-wm.NavigationVariable1389180517517",
+		"name": "goToPage-Main"
+	},
+	"supportedLocale": {
+		"name": "supportedLocale",
+		"type": "string",
+		"isList": false,
+		"owner": "App",
+		"dataSet": {
+			"en": "English"
+		},
+		"dataBinding": {
+			"dataValue": ""
+		},
+		"saveInPhonegap": false,
+		"category": "wm.Variable",
+		"_id": "wm-wm.Variable1402640443182"
+	},
+	"goToPage-Page": {
+		"owner": "App",
+		"operation": "gotoPage",
+		"pageName": "Page",
+		"category": "wm.NavigationVariable",
+		"_id": "wm-wm.NavigationVariable1403254573052"
+	},
+	"goToPage-Page1": {
+		"owner": "App",
+		"operation": "gotoPage",
+		"pageName": "Page1",
+		"category": "wm.NavigationVariable",
+		"_id": "wm-wm.NavigationVariable1403254634360"
+	},
+	"goToPage-partial1": {
+		"owner": "App",
+		"operation": "gotoPage",
+		"pageName": "partial1",
+		"category": "wm.NavigationVariable",
+		"_id": "wm-wm.NavigationVariable1403254774764"
+	}
+}

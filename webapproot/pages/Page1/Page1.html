@@ -1,0 +1,20 @@
+<wm-page layouttype="one-column" columns="1" data-ng-controller="Page1PageController" name="page1">
+    <wm-header content="partial1" name="header1"></wm-header>
+    <wm-top-nav content="topnav" name="top-nav1"></wm-top-nav>
+    <wm-content name="content1">
+        <wm-row name="row1">
+            <wm-column class="app-content-column" columnwidth="12" name="column1">
+                <wm-label name="label1"></wm-label>
+                <wm-anchor name="anchor1" caption="Go to home page" on-click="goToPage-Main"></wm-anchor>
+                <wm-picture name="picture1" picturesource="resources/images/imagelists/gmail.jpeg"></wm-picture>
+                <wm-video controls="controls" videopreload="none" name="video1"></wm-video>
+                <wm-audio controls="controls" audiopreload="none" name="audio1"></wm-audio>
+                <wm-html name="html1">This is html widget</wm-html>
+                <wm-message name="message1" caption="Message widget"></wm-message>
+                <wm-search name="search1"></wm-search>
+                <wm-richtexteditor name="richtexteditor2"></wm-richtexteditor>
+            </wm-column>
+        </wm-row>
+    </wm-content>
+    <wm-footer content="footer" name="footer1"></wm-footer>
+</wm-page>
